@@ -109,7 +109,7 @@ export const navigationLinks: Array<NavigationLink | null> = getSiteConfig(
   null
 )
 
-export const navigationLinksBlock: Array<NavigationLinksBlock | null> = getSiteConfig(
+export const navigationLinksBlock: Array<NavigationLinkBlock | null> = getSiteConfig(
   'navigationLinksBlock',
   null
 )
