@@ -8,8 +8,7 @@ import { parsePageId } from 'notion-utils'
 import { PostHogConfig } from 'posthog-js'
 
 import { getEnv, getSiteConfig } from './get-config-value'
-import { NavigationLink } from './site-config'
-import {NavigationLinksBlock} from './site-config'
+import { NavigationLink,NavigationLinkBlock } from './site-config'
 import {
   NavigationStyle,
   PageUrlOverridesInverseMap,
