@@ -33,7 +33,7 @@ export interface SiteConfig {
 
   navigationStyle?: types.NavigationStyle
   navigationLinks?: Array<NavigationLink>
-  navigationLinksBlock?: Array<NavigationLink>
+  navigationLinksBlock?: Array<NavigationLinkBlock>
 }
 
 export interface NavigationLink {
@@ -42,7 +42,7 @@ export interface NavigationLink {
   url?: string
   
 }
-export interface NavigationLinksBlock {
+export interface NavigationLinkBlock {
   title: string
   pageId?: string
   url?: string
