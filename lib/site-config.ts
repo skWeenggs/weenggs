@@ -42,6 +42,12 @@ export interface NavigationLink {
   url?: string
   
 }
+export interface NavigationLinkBlock {
+  title: string
+  pageId?: string
+  url?: string
+  
+}
 
 export const siteConfig = (config: SiteConfig): SiteConfig => {
   return config
