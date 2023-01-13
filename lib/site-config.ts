@@ -42,7 +42,7 @@ export interface NavigationLink {
   url?: string
   
 }
-export interface NavigationLinkBlock {
+export interface NavigationLinksBlock {
   title: string
   pageId?: string
   url?: string
